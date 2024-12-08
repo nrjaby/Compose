@@ -27,7 +27,7 @@ fun AppScreen() {
 @Composable
 fun GreetingSection() {
     val user = LocalUser.current // Access current user
-    val theme = LocalTheme.current // Access current theme
+    val theme = LocalAppTheme.current // Access current theme
 
     Box(
         modifier = Modifier
